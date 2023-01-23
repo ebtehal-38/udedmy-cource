@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		803EA8E52949829E007A3B60 /* CirclegroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803EA8E42949829E007A3B60 /* CirclegroupView.swift */; };
+		8053943C2948629C004361EB /* RestratApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8053943B2948629C004361EB /* RestratApp.swift */; };
+		8053943E2948629C004361EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8053943D2948629C004361EB /* ContentView.swift */; };
+		805394402948629F004361EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8053943F2948629F004361EB /* Assets.xcassets */; };
+		805394432948629F004361EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 805394422948629F004361EB /* Preview Assets.xcassets */; };
+		8053944B294863DD004361EB /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 80539449294863DD004361EB /* success.m4a */; };
+		8053944C294863DD004361EB /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8053944A294863DD004361EB /* chimeup.mp3 */; };
+		8053945329486B34004361EB /* onboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8053945229486B34004361EB /* onboardingView.swift */; };
+		8053945529486B56004361EB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8053945429486B56004361EB /* HomeView.swift */; };
+		8099FC4D294C4D6E0064AF44 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8099FC4C294C4D6E0064AF44 /* AudioPlayer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		803EA8E42949829E007A3B60 /* CirclegroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclegroupView.swift; sourceTree = "<group>"; };
+		805394382948629C004361EB /* Restrat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restrat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8053943B2948629C004361EB /* RestratApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestratApp.swift; sourceTree = "<group>"; };
+		8053943D2948629C004361EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8053943F2948629F004361EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		805394422948629F004361EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		80539449294863DD004361EB /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
+		8053944A294863DD004361EB /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
+		80539451294869A6004361EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8053945229486B34004361EB /* onboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingView.swift; sourceTree = "<group>"; };
+		8053945429486B56004361EB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8099FC4C294C4D6E0064AF44 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		805394352948629C004361EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8053942F2948629C004361EB = {
+			isa = PBXGroup;
+			children = (
+				8053943A2948629C004361EB /* Restrat */,
+				805394392948629C004361EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		805394392948629C004361EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				805394382948629C004361EB /* Restrat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8053943A2948629C004361EB /* Restrat */ = {
+			isa = PBXGroup;
+			children = (
+				80539451294869A6004361EB /* Info.plist */,
+				80539450294867B7004361EB /* Utilities  */,
+				8053944F29486792004361EB /* Views  */,
+				8053944D29486406004361EB /* Sounds  */,
+				8053943B2948629C004361EB /* RestratApp.swift */,
+				8053944E29486770004361EB /* Screens */,
+				8053943F2948629F004361EB /* Assets.xcassets */,
+				805394412948629F004361EB /* Preview Content */,
+			);
+			path = Restrat;
+			sourceTree = "<group>";
+		};
+		805394412948629F004361EB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				805394422948629F004361EB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8053944D29486406004361EB /* Sounds  */ = {
+			isa = PBXGroup;
+			children = (
+				8053944A294863DD004361EB /* chimeup.mp3 */,
+				80539449294863DD004361EB /* success.m4a */,
+			);
+			path = "Sounds ";
+			sourceTree = "<group>";
+		};
+		8053944E29486770004361EB /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8053943D2948629C004361EB /* ContentView.swift */,
+				8053945229486B34004361EB /* onboardingView.swift */,
+				8053945429486B56004361EB /* HomeView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8053944F29486792004361EB /* Views  */ = {
+			isa = PBXGroup;
+			children = (
+				803EA8E42949829E007A3B60 /* CirclegroupView.swift */,
+			);
+			path = "Views ";
+			sourceTree = "<group>";
+		};
+		80539450294867B7004361EB /* Utilities  */ = {
+			isa = PBXGroup;
+			children = (
+				8099FC4C294C4D6E0064AF44 /* AudioPlayer.swift */,
+			);
+			path = "Utilities ";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		805394372948629C004361EB /* Restrat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 805394462948629F004361EB /* Build configuration list for PBXNativeTarget "Restrat" */;
+			buildPhases = (
+				805394342948629C004361EB /* Sources */,
+				805394352948629C004361EB /* Frameworks */,
+				805394362948629C004361EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Restrat;
+			productName = Restrat;
+			productReference = 805394382948629C004361EB /* Restrat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		805394302948629C004361EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					805394372948629C004361EB = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 805394332948629C004361EB /* Build configuration list for PBXProject "Restrat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8053942F2948629C004361EB;
+			productRefGroup = 805394392948629C004361EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				805394372948629C004361EB /* Restrat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		805394362948629C004361EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8053944C294863DD004361EB /* chimeup.mp3 in Resources */,
+				805394432948629F004361EB /* Preview Assets.xcassets in Resources */,
+				8053944B294863DD004361EB /* success.m4a in Resources */,
+				805394402948629F004361EB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		805394342948629C004361EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8053945329486B34004361EB /* onboardingView.swift in Sources */,
+				803EA8E52949829E007A3B60 /* CirclegroupView.swift in Sources */,
+				8053945529486B56004361EB /* HomeView.swift in Sources */,
+				8053943E2948629C004361EB /* ContentView.swift in Sources */,
+				8053943C2948629C004361EB /* RestratApp.swift in Sources */,
+				8099FC4D294C4D6E0064AF44 /* AudioPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		805394442948629F004361EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		805394452948629F004361EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		805394472948629F004361EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Restrat/Preview Content\"";
+				DEVELOPMENT_TEAM = 3HL42W8JTD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Restrat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcourses.ksa.Restrat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		805394482948629F004361EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Restrat/Preview Content\"";
+				DEVELOPMENT_TEAM = 3HL42W8JTD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Restrat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcourses.ksa.Restrat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		805394332948629C004361EB /* Build configuration list for PBXProject "Restrat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805394442948629F004361EB /* Debug */,
+				805394452948629F004361EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		805394462948629F004361EB /* Build configuration list for PBXNativeTarget "Restrat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805394472948629F004361EB /* Debug */,
+				805394482948629F004361EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 805394302948629C004361EB /* Project object */;
+}
